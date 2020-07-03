@@ -1,8 +1,7 @@
-
 #include <bits/stdc++.h>
-
+ 
 using namespace std;
-
+ 
 int main()
 {   int n,t;
     string s;
@@ -10,19 +9,16 @@ int main()
     cin>>t;
     cin>>s;
     int i=0;
-    for(int i=0;i<t;i++)
+    while(t--)
     {
-        while(i<n)
+        for(int i=0;i<n-1;i++)
         {
             if(s[i]=='B' && s[i+1]=='G')
             {
                 swap(s[i],s[i+1]);
-                i+=2;
-            }
-            
-            else {
                 ++i;
             }
+            
         }
         
         
@@ -30,4 +26,3 @@ int main()
     }
     cout<<s;
     return 0;
-}
