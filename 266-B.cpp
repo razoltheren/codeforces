@@ -1,7 +1,8 @@
+
 #include <bits/stdc++.h>
- 
+
 using namespace std;
- 
+
 int main()
 {   int n,t;
     string s;
@@ -26,3 +27,4 @@ int main()
     }
     cout<<s;
     return 0;
+}
