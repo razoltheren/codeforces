@@ -12,18 +12,6 @@ int main()
     {
         cin>>x[i];
     }
-    // for(int i=0;i<n;i++)
-    // {
-    //     int k = x[i];
-    //     y[k-1] = k;
-    // }
-
-
-    // for(int i=0;i<n;i++)
-    // {
-    //     cout<<y[i];
-    // }
-    // return 0;
 
         for(int i=0;i<n;i++)
     {
