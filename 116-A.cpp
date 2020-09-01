@@ -1,20 +1,36 @@
 # include<bits/stdc++.h>
+#define ll long long 
 
 using namespace std;
-int main(int argc, char const *argv[])
-{	int n,a,b,sum=0;
+int main()
+{	ll n;
 	cin>>n;
-	int ans= 0;
-	for(int i=0;i<n;i++)
-	{	
-		cin>>a;
-		sum = sum -a;
-		cin>>b;
-		sum= sum +b;
-		// cout<<sum<<" ";
-		ans = max(sum,ans);
+	ll arr[n];
 
+	for(ll i=0;i<n;i++)
+	{
+		cin>>arr[i];
 	}
-	cout<<ans;
+
+	ll s,k;
+
+		cin>>s;
+		cin>>k;
+		ll z;
+	z = s*k;
+int b;
+if (k==0)
+
+	{
+		b=s;
+	}
+	else{
+		b = arr[z-1];
+		//cout<<arr[z-1];
+	}
+
+
+cout<<b;
 	return 0;
+
 }
